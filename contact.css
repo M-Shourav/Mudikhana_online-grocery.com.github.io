@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    border:border-box;
+    background:rgb(254, 253, 253);
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    width:40%;
+    background: #ffffff;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+    margin:60px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.userName input,[type="email"],[type="text"],[name="message"] {
+    outline: 0;
+    border: 1px solid gray;
+    border-radius:5px;
+    width: 98%;
+    padding:10px 4px;
+    margin: 5px 0;
+    font-size: 15px;
+} 
+.password_input{
+    width: 100%;
+    display: flex;
+}
+.password_input input{
+    width:98%;
+    outline: 0;
+    border: 1px solid gray;
+    border-radius:5px;
+    padding:10px 4px;
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.password_input i{
+    margin:5px -40px;
+    padding:10px 4px;
+    font-size: 20px;
+}
+#btn{
+    width:25%;
+    height: 47px;
+    background: rgb(2, 179, 2);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* mobile screen */
+@media (min-width:360px) and (max-width:640px) {
+    .container{
+        width: 80%;
+    }
+    .userName input,[type="email"],[type="text"],[name="message"]{
+        width:97%;
+    }
+    .password_input input{
+        width:97%;
+    }
+    .password_input i{
+        font-size: 15px;
+    }
+    #btn{
+        width:40%;
+        font-size: 18px;
+    }
+}
+
+
+/* tablet  */
+@media (min-width:641px) and (max-width:962px) {
+    .container{
+        width: 60%;
+    }
+    .userName input,[type="email"],[type="text"],[name="message"]{
+        width:98%;
+    }
+    .password_input input{
+        width:98%;
+    }
+    .password_input i{
+        font-size: 20px;
+        margin:5px -35px;
+    }
+    #btn{
+        width:40%;
+        font-size: 20px;
+    }
+}
+
+/* desktop */
+/* @media (min-width:963px) and (max-width:1280px) {
+    .container{
+        width:90%;
+    }
+    .userName input,[type="email"],[type="text"],[name="message"]{
+        width:98%;
+    }
+    .password_input input{
+        width:98%;
+    }
+    #btn{
+        width:10%;
+        font-size: 20px;
+    }
+    
+} */

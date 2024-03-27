@@ -1,0 +1,15 @@
+.side-1{
+    width: 25%;
+    background: red;
+    border: 1px solid  black;
+}
+.page-category-page{
+    width:75%;
+    background: yellow;
+
+}
+.divall{
+    /* width:400px;
+    height:200px; */
+    border:1px solid black;
+}
